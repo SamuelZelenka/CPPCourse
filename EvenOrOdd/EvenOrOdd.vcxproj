@@ -24,7 +24,7 @@
     <ProjectGuid>{7d9e3820-d0b9-4668-ad50-c303c610687d}</ProjectGuid>
     <RootNamespace>EvenOrOdd</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
-    <ProjectName>Even or Odd</ProjectName>
+    <ProjectName>3.Even or Odd</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">

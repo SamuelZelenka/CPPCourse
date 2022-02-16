@@ -29,8 +29,7 @@ int main()
 	duration<double, std::milli> test2 = t2 - t1;
 
 	std::cout << "Bitwise: " << test1.count() << "ms\n";
-	std::cout << "Modulo: " << test2.count() << "ms\n";
-
+	std::cout << "Modulo: " << &test2 << "ms\n";
 }
 
 bool is_even(int value)

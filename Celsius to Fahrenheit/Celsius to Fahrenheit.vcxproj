@@ -24,6 +24,7 @@
     <ProjectGuid>{075892f7-faa2-409b-8400-3c32f393e1ad}</ProjectGuid>
     <RootNamespace>CelsiustoFahrenheit</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>2.Celsius to Fahrenheit</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">

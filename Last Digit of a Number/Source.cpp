@@ -50,5 +50,7 @@ vector<int> get_digits(int number)
 		number /= 10;
 		digits.push_back(digit);
 	}
+
+
 	return digits;
 }
