@@ -1,0 +1,36 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "d0abd085-8093-4aef-b313-6511f1f7bb59": {
+      "ProjectGuid": "d0abd085-8093-4aef-b313-6511f1f7bb59",
+      "DisplayName": "ExampleProject",
+      "ColorIndex": 0
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    },
+    "544b8937-e43f-41b3-8ad0-d55075ca8bfc": {
+      "ProjectGuid": "544b8937-e43f-41b3-8ad0-d55075ca8bfc",
+      "DisplayName": "Absolute Difference",
+      "ColorIndex": 1
+    },
+    "075892f7-faa2-409b-8400-3c32f393e1ad": {
+      "ProjectGuid": "075892f7-faa2-409b-8400-3c32f393e1ad",
+      "DisplayName": "Celsius to Fahrenheit",
+      "ColorIndex": 2
+    },
+    "7d9e3820-d0b9-4668-ad50-c303c610687d": {
+      "ProjectGuid": "7d9e3820-d0b9-4668-ad50-c303c610687d",
+      "DisplayName": "Even or Odd",
+      "ColorIndex": 3
+    },
+    "d168f274-02aa-4296-9e5c-c183985fc67d": {
+      "ProjectGuid": "d168f274-02aa-4296-9e5c-c183985fc67d",
+      "DisplayName": "Last Digit of a Number",
+      "ColorIndex": 4
+    }
+  },
+  "NextColorIndex": 5
+}
