@@ -8,27 +8,25 @@ void setup(int* min, int* max);
 bool guess(int guessNumber);
 void play_round();
 void check_input(int* output, string asd);
-bool play_again();
-bool is_input_number(int* output);
-
+bool is_playing();
 
 int main()
 {
 	do
 	{
 		play_round();
-	} while (play_again());
+	} while (is_playing());
 }
 
-bool play_again()
+bool is_playing()
 {
 	int input;
-	cout << "Enter any key to play again.\n 1 - Exit" << endl;
-	if (is_input_number(&input))
-	{
-		return input != 1;
-	}
-	return true;
+	cout << "1 - Play again\n 0 - To quit" << endl;
+
+	cin >> input;
+
+	return input != 0;
+
 }
 void setup(int* guessNumber)
 {
@@ -47,12 +45,15 @@ void play_round()
 {
 	int guessNumber{};
 	int guessCount{0};
+
 	setup(&guessNumber);
+
 	do
 	{
 		guessCount++;
 	} while (!guess(guessNumber));
-	cout << "You guessed the correct number in " << guessCount << "attempts!" << endl;
+
+	cout << "You guessed the correct number in " << guessCount << ((guessCount == 1) ? " attempt!" : " attempts!") << endl;
 }
 
 bool guess(int correctNumber)
@@ -68,20 +69,12 @@ bool guess(int correctNumber)
 
 void check_input(int* output, string message)
 {
-	bool isValid = false;
-	do
-	{
-		system("CLS");
-		cout << message << endl;
-		isValid = is_input_number(output);
-	} while (isValid);
-}
+	system("CLS");
+	cout << message << endl;
 
-bool is_input_number(int* output)
-{
-	if (cin >> *output)
+	while (!(cin >> *output))
 	{
-		return false;
-	}
-	return true;
+		cin.clear();
+		cin.ignore(numeric_limits<streamsize>::max(), '\n');
+	} 
 }

@@ -30,7 +30,12 @@
       "ProjectGuid": "d168f274-02aa-4296-9e5c-c183985fc67d",
       "DisplayName": "Last Digit of a Number",
       "ColorIndex": 4
+    },
+    "fc77837c-582e-4056-9644-69bab26afbc5": {
+      "ProjectGuid": "fc77837c-582e-4056-9644-69bab26afbc5",
+      "DisplayName": "6.Guessing Game",
+      "ColorIndex": 5
     }
   },
-  "NextColorIndex": 5
+  "NextColorIndex": 6
 }
