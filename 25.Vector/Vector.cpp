@@ -9,9 +9,8 @@ private:
 	T* arr_;
 	T* end_;
 	int capacity;
-	
-public:
 	int size;
+public:
 	vector()
 	{
 		arr_ = new T[1];
