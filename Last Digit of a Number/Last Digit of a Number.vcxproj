@@ -24,7 +24,7 @@
     <ProjectGuid>{d168f274-02aa-4296-9e5c-c183985fc67d}</ProjectGuid>
     <RootNamespace>LastDigitofaNumber</RootNamespace>
     <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
-    <ProjectName>4.Last Digit of a Number</ProjectName>
+    <ProjectName>4.Last Digit of a Number (Easy)</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -140,7 +140,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Source.cpp" />
+    <ClCompile Include="LastDigit.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

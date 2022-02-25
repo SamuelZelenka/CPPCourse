@@ -3,14 +3,14 @@
 
 using namespace std;
 
-#define CONTAINS_DIGIT(input, digit) (std::cout << input << " contains the number " << digit << "." << std::endl);
+#define CONTAINS_DIGIT(input, digit) (cout << input << " contains the number " << digit << "." << endl);
 #define DOESNT_CONTAINS_DIGIT(input, digit) (cout << input << " doesn't contain the number " << digit << "." << endl);
 
 bool contains_number(int digit, int number);
 vector<int> get_digits(int number);
 
-const int INPUT_DIGIT = 1;
-const int INPUT_NUMBER = 678234;
+const int INPUT_DIGIT = 4; // Single digit lookup
+const int INPUT_NUMBER = 678234; //Number to look through
 
 int main()
 {
@@ -26,27 +26,13 @@ int main()
 
 bool contains_number(int digit, int number)
 {
-	vector<int> digits = get_digits(number);
-	for (int i = 0; i < digits.size(); i++)
+	for (int i = 0; number > 0; i++)
 	{
-		if (digits[i] == digit)
+		if (number % 10 == digit)
 		{
 			return true;
 		}
+		number /= 10;
 	}
 	return false;
-}
-
-vector<int> get_digits(int number)
-{
-	vector<int> digits;
-
-	for (int i = 0; number > 0; i++)
-	{
-		int digit = number % 10;
-		number /= 10;
-		digits.push_back(digit);
-	}
-
-	return digits;
 }

@@ -24,7 +24,7 @@
     <ProjectGuid>{1d8363ac-f0ac-4052-9c7c-71c1ed1d11d4}</ProjectGuid>
     <RootNamespace>Swap</RootNamespace>
     <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
-    <ProjectName>5.Swap</ProjectName>
+    <ProjectName>5.Swap (Easy)</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">

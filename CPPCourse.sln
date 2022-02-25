@@ -3,31 +3,33 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.1.32210.238
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "1.Absolute Difference", "Absolute Difference\Absolute Difference.vcxproj", "{544B8937-E43F-41B3-8AD0-D55075CA8BFC}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "1.Absolute Difference (Easy)", "Absolute Difference\Absolute Difference.vcxproj", "{544B8937-E43F-41B3-8AD0-D55075CA8BFC}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "2.Celsius to Fahrenheit", "Celsius to Fahrenheit\Celsius to Fahrenheit.vcxproj", "{075892F7-FAA2-409B-8400-3C32F393E1AD}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "2.Celsius to Fahrenheit (Easy)", "Celsius to Fahrenheit\Celsius to Fahrenheit.vcxproj", "{075892F7-FAA2-409B-8400-3C32F393E1AD}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "3.Even or Odd", "EvenOrOdd\EvenOrOdd.vcxproj", "{7D9E3820-D0B9-4668-AD50-C303C610687D}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "3.Even or Odd (Easy)", "EvenOrOdd\EvenOrOdd.vcxproj", "{7D9E3820-D0B9-4668-AD50-C303C610687D}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "4.Last Digit of a Number", "Last Digit of a Number\Last Digit of a Number.vcxproj", "{D168F274-02AA-4296-9E5C-C183985FC67D}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "4.Last Digit of a Number (Easy)", "Last Digit of a Number\Last Digit of a Number.vcxproj", "{D168F274-02AA-4296-9E5C-C183985FC67D}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "5.Swap", "Swap\Swap.vcxproj", "{1D8363AC-F0AC-4052-9C7C-71C1ED1D11D4}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "5.Swap (Easy)", "Swap\Swap.vcxproj", "{1D8363AC-F0AC-4052-9C7C-71C1ED1D11D4}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "6.Guessing Game", "Guessing Game\Guessing Game.vcxproj", "{FC77837C-582E-4056-9644-69BAB26AFBC5}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "6.Guessing Game (Easy)", "Guessing Game\Guessing Game.vcxproj", "{FC77837C-582E-4056-9644-69BAB26AFBC5}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "7.Arithmetic Progression", "Arithmetic Progression\Arithmetic Progression.vcxproj", "{3F0A87B7-B24D-41BC-B704-047F461CB0F5}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "7.Arithmetic Progression (Easy)", "Arithmetic Progression\Arithmetic Progression.vcxproj", "{3F0A87B7-B24D-41BC-B704-047F461CB0F5}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "8.Reverse Collection", "8.Reverse Collection\8.Reverse Collection.vcxproj", "{02621B63-00E0-44B1-B821-512CE909C1A7}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "8.Reverse Collection (Easy)", "8.Reverse Collection\8.Reverse Collection.vcxproj", "{02621B63-00E0-44B1-B821-512CE909C1A7}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "9.Linear Search", "9.Linear Search\9.Linear Search.vcxproj", "{50020CEB-F379-493D-8D05-E4C85E4381DF}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "9.Linear Search (Easy)", "9.Linear Search\9.Linear Search.vcxproj", "{50020CEB-F379-493D-8D05-E4C85E4381DF}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "25.Vector", "25.Vector\25.Vector.vcxproj", "{27492693-BFE4-46A9-83B5-3FA1DABA54B1}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "25.Vector (Hard)", "25.Vector\25.Vector.vcxproj", "{27492693-BFE4-46A9-83B5-3FA1DABA54B1}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "22.Compress String", "22.Compress String\22.Compress String.vcxproj", "{C00A0836-28C7-402D-8F3C-EF26910A27BE}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "22.Compress String (Hard)", "22.Compress String\22.Compress String.vcxproj", "{C00A0836-28C7-402D-8F3C-EF26910A27BE}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "21.Permutations", "21.Permutations\21.Permutations.vcxproj", "{3ED571B2-018E-4C91-BAD7-46D8EFDE4746}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "21.Permutations (Hard)", "21.Permutations\21.Permutations.vcxproj", "{3ED571B2-018E-4C91-BAD7-46D8EFDE4746}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "20.Contains Number", "20.Contains Number\20.Contains Number.vcxproj", "{A978A02F-ABA0-407A-84FE-897DCF43837F}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "20.Contains Number (Hard)", "20.Contains Number\20.Contains Number.vcxproj", "{A978A02F-ABA0-407A-84FE-897DCF43837F}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "17.Lucky Number (Intermediate)", "17.Lucky Number (intermediate)\17.Lucky Number (intermediate).vcxproj", "{C3E75C72-49DD-4B8C-B395-1CFB0CB07D7E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -141,6 +143,14 @@ Global
 		{A978A02F-ABA0-407A-84FE-897DCF43837F}.Release|x64.Build.0 = Release|x64
 		{A978A02F-ABA0-407A-84FE-897DCF43837F}.Release|x86.ActiveCfg = Release|Win32
 		{A978A02F-ABA0-407A-84FE-897DCF43837F}.Release|x86.Build.0 = Release|Win32
+		{C3E75C72-49DD-4B8C-B395-1CFB0CB07D7E}.Debug|x64.ActiveCfg = Debug|x64
+		{C3E75C72-49DD-4B8C-B395-1CFB0CB07D7E}.Debug|x64.Build.0 = Debug|x64
+		{C3E75C72-49DD-4B8C-B395-1CFB0CB07D7E}.Debug|x86.ActiveCfg = Debug|Win32
+		{C3E75C72-49DD-4B8C-B395-1CFB0CB07D7E}.Debug|x86.Build.0 = Debug|Win32
+		{C3E75C72-49DD-4B8C-B395-1CFB0CB07D7E}.Release|x64.ActiveCfg = Release|x64
+		{C3E75C72-49DD-4B8C-B395-1CFB0CB07D7E}.Release|x64.Build.0 = Release|x64
+		{C3E75C72-49DD-4B8C-B395-1CFB0CB07D7E}.Release|x86.ActiveCfg = Release|Win32
+		{C3E75C72-49DD-4B8C-B395-1CFB0CB07D7E}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

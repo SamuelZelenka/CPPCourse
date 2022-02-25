@@ -24,7 +24,7 @@
     <ProjectGuid>{544b8937-e43f-41b3-8ad0-d55075ca8bfc}</ProjectGuid>
     <RootNamespace>AbsoluteDifference</RootNamespace>
     <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
-    <ProjectName>1.Absolute Difference</ProjectName>
+    <ProjectName>1.Absolute Difference (Easy)</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -140,7 +140,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Source.cpp" />
+    <ClCompile Include="AbsoluteDifference.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

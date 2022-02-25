@@ -21,10 +21,10 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{075892f7-faa2-409b-8400-3c32f393e1ad}</ProjectGuid>
-    <RootNamespace>CelsiustoFahrenheit</RootNamespace>
-    <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
-    <ProjectName>2.Celsius to Fahrenheit (Easy)</ProjectName>
+    <ProjectGuid>{c3e75c72-49dd-4b8c-b395-1cfb0cb07d7e}</ProjectGuid>
+    <RootNamespace>My17LuckyNumberintermediate</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>17.Lucky Number (Intermediate)</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -140,7 +140,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="CelsiusToFahrenheit.cpp" />
+    <ClCompile Include="LuckyNumber.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

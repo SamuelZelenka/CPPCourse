@@ -1,0 +1,3 @@
+﻿  LuckyNumber.cpp
+C:\C++\CPPCourse\17.Lucky Number (intermediate)\LuckyNumber.cpp(31,34): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  17.Lucky Number (intermediate).vcxproj -> C:\C++\CPPCourse\x64\Debug\17.Lucky Number (Intermediate).exe

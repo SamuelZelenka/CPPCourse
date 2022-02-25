@@ -1,14 +1,17 @@
 #include <stdexcept>
 #include <iostream>
 
+using namespace std;
+
 template <typename T> class vector
 {
 private:
 	T* arr_;
 	T* end_;
 	int capacity;
-	int size;
+	
 public:
+	int size;
 	vector()
 	{
 		arr_ = new T[1];
@@ -16,6 +19,7 @@ public:
 		capacity = 1;
 		size = 0;
 	}
+
 	void push(T data)
 	{
 		if (size == capacity)
@@ -39,13 +43,14 @@ public:
 	T pop()
 	{
 		size--;
-		if (size < 0)
+		if (size <= 0)
 		{
-			throw std::out_of_range("Vector is empty.");
+			throw out_of_range("Vector is empty.");
 		}
 		end_ = &arr_[size - 1];
 		return arr_[size];
 	}
+
 	int getSize()
 	{
 		return size;
@@ -58,8 +63,19 @@ public:
 
 	T* end()
 	{
-		int&& typeSize = sizeof(T)/size;
-		return arr_ + typeSize * size;
+		return arr_ + (sizeof(T) / size) * size;
+	}
+
+	T operator[](int index)
+	{
+		string asd;
+
+		asd.le
+		if (index < 0 || index > getSize() - 1)
+		{
+			throw out_of_range("Index out of range");
+		}
+		return arr_[index];
 	}
 };
 
@@ -74,11 +90,15 @@ int main()
 
 	someVector.push(4);
 
-	std::cout << "size: " << someVector.getSize() << std::endl;
+	cout << "size: " << someVector.getSize() << endl;
+	
 
-	for (int number : someVector)
+	for (int number : someVector) 
 	{
-		std::cout << "Number: " << number << std::endl;
+		cout << "Number: " << number << endl;
 	}
-
+	for (int i = 0; i < someVector.getSize(); i++) 
+	{
+		cout << "Number: " << someVector[i] << endl;
+	}
 }

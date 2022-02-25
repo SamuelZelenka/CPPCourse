@@ -3,7 +3,7 @@
 
 using namespace std;
 
-const string INPUT = "HELLO";
+const string INPUT = "ABC";
 
 string permute(string input, int left, int right);
 

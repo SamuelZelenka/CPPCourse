@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="EvenOrOdd.cpp">
+    <ClCompile Include="LuckyNumber.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
